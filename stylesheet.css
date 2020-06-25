@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgba(34,49,52,0.9);
+  width:100%;
+  height: 65px;
+  position: fixed;
+  top:0px;
+  z-index: 10;
+}
+
+.header-left {
+  float:left;
+}
+
+.header-left img {
+  margin-top: 20px;
+  width: 124px;
+}
+
+.sp-menu {
+  display: none;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  line-height: 65px;
+}
+
+
+.header-right {
+  float:right;
+}
+
+.btn-header {
+  display: inline-block;
+  color: white;
+  padding: 0 25px;
+  line-height: 65px;
+  transition: all 0.5s;
+  cursor:pointer;
+}
+
+.btn-header:hover  {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+#modal-wrapper {
+  position: fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-color:  rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: none;
+  text-align: center;
+}
+
+#modal-login {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 100px;
+  background-color: #e6ecf0;
+  border-radius: 5px;
+}
+
+#modal-login p {
+  font-size: 20px;
+}
+
+.textbox {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #d0d5d8;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.modal-btn {
+  width: 250px;
+}
+
+
+
+.top-wrapper {
+  width:100%;
+  background-image: url(../img/top.png);
+  background-size: cover;
+  padding: 180px 0 100px 0;
+  color:white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+ font-size: 42px;
+ opacity: 0.8;
+ letter-spacing: 8px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 24px;
+  color: white;
+  border-radius: 3px;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.fa {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.signin {
+  background-color: #239b76;
+}
+
+.fb {
+  background-color: #3b5998;
+  margin-right:10px;
+}
+
+.tw {
+  background-color: #55acee;
+}
+
+.lesson-wrapper {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 80px 0 50px 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #5f5d60;
+  font-weight: normal;
+  margin: 0;
+}
+
+.lessons {
+  padding-top: 50px;
+}
+
+.lesson{
+  float: left;
+  width: 25%;
+}
+
+.clear {
+  clear: left;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  color: white;
+}
+
+.text-content {
+  width: 80%;
+  display: inline-block;
+  font-size: 14px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  text-align: center;
+  padding: 100px 0 80px 0;
+  border-bottom: 1px solid #eee;
+
+}
+
+.message-wrapper h3 {
+  color: #5f5d60;
+  font-weight: normal;
+}
+
+.message {
+  margin-top: 60px;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  display: inline-block;
+  box-shadow: 0px 7px #1a7940;
+  cursor: pointer;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+footer {
+padding: 30px 0 20px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer {
+  color: #b3aeb5;
+  font-size: 12px;
+}
