@@ -142,7 +142,7 @@ cursor: pointer;
 
 .top-wrapper {
   width:100%;
-  background-image: url(../img/top.png);
+  background-image: url(top.png);
   background-size: cover;
   padding: 180px 0 100px 0;
   color:white;
